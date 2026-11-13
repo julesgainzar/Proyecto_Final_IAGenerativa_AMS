@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+
+actor Usuario
+actor Administrador
+
+rectangle IAGenEdu {
+  usecase "Registrarse e iniciar sesión" as UC1
+  usecase "Consultar módulos de aprendizaje" as UC2
+  usecase "Buscar contenido" as UC3
+  usecase "Preguntar al agente" as UC4
+  usecase "Valorar respuesta del agente" as UC5
+  usecase "Resolver cuestionarios" as UC6
+  usecase "Ver avance y retroalimentación" as UC7
+  usecase "Gestionar contenido" as UC8
+  usecase "Revisar preguntas sin respuesta" as UC9
+}
+
+Usuario --> UC1
+Usuario --> UC2
+Usuario --> UC3
+Usuario --> UC4
+Usuario --> UC5
+Usuario --> UC6
+Usuario --> UC7
+
+Administrador --> UC1
+Administrador --> UC8
+Administrador --> UC9
+
+UC5 .> UC4 : <<extend>>
+@enduml

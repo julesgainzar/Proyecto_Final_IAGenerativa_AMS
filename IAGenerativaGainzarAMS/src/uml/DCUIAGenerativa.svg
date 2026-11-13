@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="775px" preserveAspectRatio="none" style="width:427px;height:775px;background:#FFFFFF;" version="1.1" viewBox="0 0 427 775" width="427px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <!--cluster IAGenEdu-->
+        <g id="cluster_IAGenEdu">
+            <rect fill="none" height="762" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="281" x="140" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="246" y="23.5332">IAGenEdu</text>
+        </g>
+        <g id="elem_UC1">
+            <ellipse cx="280.5397" cy="566.8079" fill="#F1F1F1" rx="104.5397" ry="23.3079" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="195.0397" y="570.5365">Registrarse e iniciar sesión</text>
+        </g>
+        <g id="elem_UC2">
+            <ellipse cx="280.7387" cy="480.8477" fill="#F1F1F1" rx="124.7387" ry="27.3477" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="215" x="173.2387" y="484.5763">Consultar módulos de aprendizaje</text>
+        </g>
+        <g id="elem_UC3">
+            <ellipse cx="280.2877" cy="61.0575" fill="#F1F1F1" rx="78.2877" ry="18.0575" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="223.5149" y="65.2774">Buscar contenido</text>
+        </g>
+        <g id="elem_UC4">
+            <ellipse cx="280.3478" cy="398.8696" fill="#F1F1F1" rx="84.8478" ry="19.3696" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="217.3478" y="402.5981">Preguntar al agente</text>
+        </g>
+        <g id="elem_UC5">
+            <ellipse cx="280.434" cy="301.9868" fill="#F1F1F1" rx="110.434" ry="24.4868" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="188.434" y="305.7153">Valorar respuesta del agente</text>
+        </g>
+        <g id="elem_UC6">
+            <ellipse cx="280.566" cy="134.9132" fill="#F1F1F1" rx="92.566" ry="20.9132" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="208.566" y="138.6417">Resolver cuestionarios</text>
+        </g>
+        <g id="elem_UC7">
+            <ellipse cx="280.4339" cy="217.0868" fill="#F1F1F1" rx="115.9339" ry="25.5868" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="182.4339" y="220.8153">Ver avance y retroalimentación</text>
+        </g>
+        <g id="elem_UC8">
+            <ellipse cx="280.6926" cy="733.0385" fill="#F1F1F1" rx="85.6926" ry="19.5385" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="216.6926" y="736.767">Gestionar contenido</text>
+        </g>
+        <g id="elem_UC9">
+            <ellipse cx="280.591" cy="651.9182" fill="#F1F1F1" rx="120.091" ry="26.4182" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="178.091" y="655.6467">Revisar preguntas sin respuesta</text>
+        </g>
+        <!--entity Usuario-->
+        <g id="elem_Usuario">
+            <ellipse cx="49.5" cy="271.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M49.5,279.5 L49.5,306.5 M36.5,287.5 L62.5,287.5 M49.5,306.5 L36.5,321.5 M49.5,306.5 L62.5,321.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="25.5" y="337.5332">Usuario</text>
+        </g>
+        <!--entity Administrador-->
+        <g id="elem_Administrador">
+            <ellipse cx="49.5" cy="621.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M49.5,629.5 L49.5,656.5 M36.5,637.5 L62.5,637.5 M49.5,656.5 L36.5,671.5 M49.5,656.5 L62.5,671.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="6" y="687.5332">Administrador</text>
+        </g>
+        <!--link Usuario to UC1-->
+        <g id="link_Usuario_UC1">
+            <path d="M53.96,341.17 C60.49,391.19 79.14,477.1 132,526 C146.18,539.12 164.19,548.09 182.72,554.21 " fill="none" id="Usuario-to-UC1" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="187.96,555.87,180.5916,549.3349,183.1942,554.3575,178.1717,556.9601,187.96,555.87" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Usuario to UC2-->
+        <g id="link_Usuario_UC2">
+            <path d="M65.18,341.15 C78.36,371.19 100.49,411.54 132,436 C146.11,446.96 162.89,455.26 179.98,461.55 " fill="none" id="Usuario-to-UC2" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="184.81,463.27,177.664,456.4925,180.0974,461.5992,174.9907,464.0326,184.81,463.27" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Usuario to UC3-->
+        <g id="link_Usuario_UC3">
+            <path d="M55.11,262.78 C62.73,216.05 82.42,138.92 132,96 C150.48,80 174.98,71 198.68,66.03 " fill="none" id="Usuario-to-UC3" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="203.72,65.03,194.114,62.8566,198.8155,66.0023,195.6697,70.7038,203.72,65.03" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Usuario to UC4-->
+        <g id="link_Usuario_UC4">
+            <path d="M73.68,314.88 C89.8,323.61 111.91,335.12 132,344 C163.07,357.74 198.75,371.11 227.23,381.22 " fill="none" id="Usuario-to-UC4" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="232.1,382.94,224.954,376.1625,227.3874,381.2692,222.2807,383.7026,232.1,382.94" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Usuario to UC5-->
+        <g id="link_Usuario_UC5">
+            <path d="M73.72,302 C95.61,302 130.14,302 164.7,302 " fill="none" id="Usuario-to-UC5" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="169.8,302,160.8,298,164.8,302,160.8,306,169.8,302" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Usuario to UC6-->
+        <g id="link_Usuario_UC6">
+            <path d="M66.06,262.79 C79.41,234.09 101.37,196.39 132,174 C150.09,160.78 172.33,152.03 194.01,146.26 " fill="none" id="Usuario-to-UC6" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="198.92,144.99,189.2082,143.3528,194.0769,146.2329,191.1968,151.1017,198.92,144.99" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Usuario to UC7-->
+        <g id="link_Usuario_UC7">
+            <path d="M73.83,288.45 C89.83,279.54 111.75,268.08 132,260 C153.19,251.54 176.68,243.94 198.58,237.56 " fill="none" id="Usuario-to-UC7" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="203.52,236.13,193.7637,234.7832,198.7162,237.5168,195.9826,242.4693,203.52,236.13" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Administrador to UC1-->
+        <g id="link_Administrador_UC1">
+            <path d="M93.2,626.63 C105.46,619.99 119.02,613.23 132,608 C154.21,599.05 179.05,591.32 201.93,585.06 " fill="none" id="Administrador-to-UC1" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="206.78,583.75,197.0496,582.2273,201.9519,585.0499,199.1294,589.9522,206.78,583.75" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Administrador to UC8-->
+        <g id="link_Administrador_UC8">
+            <path d="M93.11,677.59 C105.37,684.23 118.96,690.94 132,696 C156.8,705.63 184.94,713.41 209.94,719.31 " fill="none" id="Administrador-to-UC8" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="214.89,720.46,207.0415,714.5101,210.0222,719.318,205.2143,722.2986,214.89,720.46" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link Administrador to UC9-->
+        <g id="link_Administrador_UC9">
+            <path d="M93.04,652 C110.95,652 132.83,652 155.2,652 " fill="none" id="Administrador-to-UC9" style="stroke:#181818;stroke-width:1.0;"/>
+            <polygon fill="#181818" points="160.28,652,151.28,648,155.28,652,151.28,656,160.28,652" style="stroke:#181818;stroke-width:1.0;"/>
+        </g>
+        <!--link UC5 to UC4-->
+        <g id="link_UC5_UC4">
+            <path d="M280.5,326.78 C280.5,341.32 280.5,359.65 280.5,374.19 " fill="none" id="UC5-to-UC4" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#181818" points="280.5,379.37,284.5,370.37,280.5,374.37,276.5,370.37,280.5,379.37" style="stroke:#181818;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="242" y="358.4951">«extend»</text>
+        </g>
+        <!--SRC=[RPBTIWCn48NlynH3xolO_qefr2B5En7g_P2CQoHDIYOf_k1JzH7wOiwMgBjhBq_upfcPi-leEK4A46trai3OI3hPu9L2dKA4BMUCDXIrCZlhBQU89aIbQXPzvGZkLnloToR3fmB8J1gPeFT8rHcE8WZ4gIr6O69xEleU8CDsVTqqh8Fdx990kzFHP1SO307k8tbZF_2LYcdGDDrcrkBGmIVoreJ239lCGwGg-peO7M15WXPirCIUq0LP5oBnFXCdbF4TVjm-a8Cxa0olQQcjxeeBEMab2uG7z9hWNU9J3EZiJd9HDygODYsRdyX_fytQEnmi2xGl9pAmzNyN5CjSVIbLFYRq-yjpysqzwEXXHuywUjpHauwUAjNwNtx7NdgTNNoToyxhCLoTnyCDB1Rq9asOvV8R]-->
+    </g>
+</svg>

@@ -1,0 +1,53 @@
+@startuml
+
+class Usuario {
+  - nombre : String
+  - correo : String
+  + iniciarSesion()
+  + buscarContenido()
+  + hacerPregunta()
+}
+
+class Administrador {
+  + gestionarContenido()
+}
+
+class Modulo {
+  - titulo : String
+}
+
+class Contenido {
+  - titulo : String
+  - texto : String
+  - tipo : String
+}
+
+class Evaluacion {
+  - titulo : String
+}
+
+class Resultado {
+  - calificacion : float
+  - fecha : Date
+}
+
+class ConsultaAgente {
+  - pregunta : String
+  - respuesta : String
+  - respondida : boolean
+}
+
+class AgenteAutorespuesta {
+  + responder()
+}
+
+Usuario <|-- Administrador
+Modulo "1" --> "*" Contenido : incluye
+Modulo "1" --> "*" Evaluacion : tiene
+Usuario "1" --> "*" Resultado : obtiene
+Evaluacion "1" --> "*" Resultado : genera
+Usuario "1" --> "*" ConsultaAgente : realiza
+AgenteAutorespuesta --> ConsultaAgente : responde
+AgenteAutorespuesta ..> Contenido : consulta
+Administrador ..> Contenido : gestiona
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+start
+:El usuario inicia sesión;
+:Escribe su pregunta en el chat;
+:El agente busca en la base de conocimiento;
+
+if (¿Encontró información relevante?) then (Sí)
+  :Muestra la respuesta;
+  if (¿La respuesta fue útil?) then (Sí)
+  else (No)
+    :Registra la valoración;
+  endif
+else (No)
+  :Avisa que no tiene respuesta;
+  :Guarda la pregunta para revisión del administrador;
+endif
+
+stop
+@enduml
