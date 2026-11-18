@@ -1,0 +1,14 @@
+@startsalt
+{+
+  <b>Agente de ayuda IAGenEdu
+  ==
+  Agente: ¿En qué te puedo ayudar?
+  Tú: ¿Cómo escribo un buen prompt?
+  Agente: Define el objetivo, da contexto y pide un formato.
+  ..
+  "Escribe tu pregunta aquí          "
+  [Enviar]
+  ==
+  ¿Te sirvió la respuesta? | [Sí] | [No]
+}
+@endsalt

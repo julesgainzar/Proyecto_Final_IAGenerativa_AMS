@@ -1,0 +1,30 @@
+@startgantt
+language es
+
+-- Product Backlog IA Generativa --
+-- Sprint 1: Módulos de contenido --
+[Planificación Sprint 1] lasts 1 days
+then [Diseño de la base de datos] lasts 1 days
+then [HU-01 Listar temas de estudio] lasts 2 days
+then [HU-02 Visualizar contenido] lasts 2 days
+then [HU-03 Navegar entre contenidos] lasts 1 days
+then [HU-04 Buscar contenido] lasts 2 days
+then [Review Sprint 1] lasts 1 days
+
+-- Sprint 2: Registro, evaluación y seguimiento --
+then [Planificación Sprint 2] lasts 1 days
+then [HU-05 Registro e inicio de sesión] lasts 2 days
+then [HU-06 Responder cuestionario] lasts 2 days
+then [HU-07 Calificar evaluación] lasts 2 days
+then [HU-08 Guardar y mostrar progreso] lasts 2 days
+then [Review Sprint 2] lasts 1 days
+
+-- Sprint 3: Agente de autorespuesta y administración --
+then [Planificación Sprint 3] lasts 1 days
+then [HU-09 Preguntar al agente] lasts 3 days
+then [HU-10 Guardar preguntas sin respuesta] lasts 2 days
+then [HU-11 Valorar respuesta del agente] lasts 1 days
+then [HU-12 Gestionar contenido] lasts 2 days
+then [Review Sprint 3] lasts 1 days
+
+@endgantt

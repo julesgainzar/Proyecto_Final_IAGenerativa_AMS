@@ -1,0 +1,17 @@
+@startsalt
+{^"IA Generativa"
+    .
+    [Usuario   ]|"Captura Usuario"
+    [Contraseña]|"Captura contraseña"
+    .
+    [Iniciar Sesión]|[Registrar]|[ Cancelar ]
+    .
+    {#
+        <color:red><b>[!] Error:</b> Usuario o Contraseña incorrectos.</color>
+
+    }
+
+
+
+}
+@endsalt

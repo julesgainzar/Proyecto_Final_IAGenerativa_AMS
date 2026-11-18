@@ -1,0 +1,75 @@
+@startuml
+
+entity "usuario" as usuario {
+  *id_usuario : INT <<PK>>
+  --
+  *nombre : VARCHAR(100)
+  *email : VARCHAR(100)
+  *password_hash : VARCHAR(255)
+  *rol : VARCHAR(20)
+}
+
+entity "modulo" as modulo {
+  *id_modulo : INT <<PK>>
+  --
+  *titulo : VARCHAR(100)
+  *descripcion : VARCHAR(255)
+}
+
+entity "contenido" as contenido {
+  *id_contenido : INT <<PK>>
+  --
+  *id_modulo : INT <<FK>>
+  *titulo : VARCHAR(100)
+  *texto : TEXT
+  *tipo : VARCHAR(20)
+  *orden : INT
+}
+
+entity "evaluacion" as evaluacion {
+  *id_evaluacion : INT <<PK>>
+  --
+  *id_modulo : INT <<FK>>
+  *titulo : VARCHAR(100)
+  *nota_minima : INT
+}
+
+entity "pregunta" as pregunta {
+  *id_pregunta : INT <<PK>>
+  --
+  *id_evaluacion : INT <<FK>>
+  *enunciado : VARCHAR(255)
+  *opcion_a : VARCHAR(150)
+  *opcion_b : VARCHAR(150)
+  *opcion_c : VARCHAR(150)
+  *respuesta_correcta : CHAR(1)
+}
+
+entity "resultado" as resultado {
+  *id_resultado : INT <<PK>>
+  --
+  *id_usuario : INT <<FK>>
+  *id_evaluacion : INT <<FK>>
+  *calificacion : DECIMAL(5,2)
+  *fecha : DATE
+}
+
+entity "consulta_agente" as consulta_agente {
+  *id_consulta : INT <<PK>>
+  --
+  *id_usuario : INT <<FK>>
+  *pregunta : TEXT
+  respuesta : TEXT
+  *respondida : BOOLEAN
+  util : BOOLEAN
+}
+
+' Relaciones
+modulo ||--|{ contenido : "Contiene (1:N)"
+modulo ||--|{ evaluacion : "Tiene (1:N)"
+evaluacion ||--|{ pregunta : "Contiene (1:N)"
+usuario ||--o{ resultado : "Obtiene (1:N)"
+evaluacion ||--o{ resultado : "Genera (1:N)"
+usuario ||--o{ consulta_agente : "Realiza (1:N)"
+
+@enduml

@@ -1,0 +1,12 @@
+@startsalt
+{+
+  <b>Panel de administración
+  {/ <b>Contenido | Preguntas sin respuesta | Valoraciones }
+  {#
+    Título | Módulo | Tipo | Acciones
+    Qué es la IAG | 1 | Fundamentos | [Editar] [Borrar]
+    Buenos prompts | 2 | Tip | [Editar] [Borrar]
+  }
+  [Nuevo contenido]
+}
+@endsalt
